@@ -1,9 +1,36 @@
 body {
-  background-color: #4286f4;
+  background-image:url("https://noupe.com/img/beautiful-background-20.jpg");
     background-repeat: no-repeat;
-    background-size:1650px 1175px;
+    background-size:1675px 1275px;
 
  }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
 
  h1{
    /*color: blue;*/
@@ -11,9 +38,42 @@ body {
  }
 
 h2{
-  color:
+  text-align: center;
+  color:green
+}
+p{
+  text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.ungolpe{
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.escuela{
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+
+}
+}
+.main{
+  margin-left:100px;
+  margin-top: 20px;
+  padding-top: 50px;
+  color:black;
+  background-color: white;
 }
 
 .Larry {
-  color:red;
+  color:black;
 }
