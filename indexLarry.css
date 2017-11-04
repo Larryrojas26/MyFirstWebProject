@@ -35,6 +35,7 @@ li a:hover:not(.active) {
  h1{
    /*color: blue;*/
    text-align: center;
+   color:blue;
  }
 
 h2{
@@ -43,6 +44,7 @@ h2{
 }
 p{
   text-align: center;
+  color: LightBlue;
 }
 
 img {
@@ -71,7 +73,7 @@ img:hover {
   margin-top: 20px;
   padding-top: 50px;
   color:black;
-  background-color: white;
+
 }
 
 .Larry {
